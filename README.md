@@ -1,32 +1,20 @@
 <h1 align="center">Análisis de perfil de clientes</h1>
 
 ## 1. Descripción
-Se plantean cinco preguntas de negocio centradas en el perfil del cliente con la finalidad de analizar cómo las características demográficas influyen en el comportamiento de compra, lo que permite identificar segmentos claves y oportunidades de optiminzación en las estrategias de marketing.
-
-- **1.** ¿Qué nivel educativo presenta mayor valor económico para la empresa?
-- **2.** ¿Qué combinación de nivel educativo y estado civil genera mayor valor para la empresa?
-- **3.** ¿Qué perfiles de clientes muestran mayor estabilidad en su comportamiento de compra?
-- **4.** ¿Qué perfiles de clientes presentan mayor diversificación de consumo?
-- **5.** ¿Qué perfiles de clientes presentan mayor riesgo de abandono?
+El dashboard interactivo de análisis económico-financiero permite evaluar la salud financiera de una organización a través de indicadores clave, como la rentabilidad, el endeudamiento, la liquidez y el punto de equilibrio, a lo largo del período 2019–2024, facilitando así la toma de decisiones basada en datos.
 
 ---
 ## 2. Dataset
-
-El dataset contiene información sobre características demográficas de los clientes y su comportamiento de compra en diferentes categorías de productos.
-
-Variables principales utilizadas en el análisis:
-- Nivel educativo del cliente
-- Estado civil
-- Segmentación por ingresos
-- Número de hijos
-- Compras en categorías como Wine, Meat, Fish, Fruits y Sweet
-
-Estas variables permiten analizar cómo las características del cliente influyen en su comportamiento de compra y en su nivel de gasto.
+El conjunto de datos utilizado incluye información financiera estructurada.
+Se definió la tabla de hechos (factDiario), la cual contiene los movimientos financieros (importe, cuentas y fechas). Asimismo, se definieron las siguientes tablas de dimensiones:
+- dimCalendario: incluye fechas, años, trimestres, meses y otros atributos temporales, con un rango que abarca de 2019 a 2024.
+- dimPGC: contiene la estructura contable (cuentas, agrupaciones y clasificación financiera).
 
 ---
 ## 3. Herramientas Utilizadas
 - Power BI- DAX (Data Analysis Expressions)
-
+- Modelado de datos en esquema estrella.
+  
 **Vista del Dashboard**
 ![Dashboard Power BI](images/dashboard.png)
 
@@ -52,5 +40,10 @@ Además, el dashboard incluye filtros interactivos para analizar los resultados 
 ---
 ## 5. Hallazgos
 
-A partir del análisis realizado se identificaron algunos patrones relevantes:
-- Los clientes con mayor nivel educativo tienden a presentar mayor gasto promed
+A partir del análisis del dashboard (enfocado en 2019):
+- Rentabilidad baja: el ROI muestra valores reducidos, indicando baja eficiencia en el uso de los recursos.
+- EBITDA positivo pero limitado: sugiere generación de beneficios, aunque con margen de mejora.
+- Punto de equilibrio elevado: la empresa requiere un nivel significativo de ingresos para ser rentable.
+- Alto endeudamiento (~76,77%): dependencia considerable de financiación externa.
+- Fondo de maniobra ajustado: capacidad limitada para cubrir obligaciones a corto plazo.
+- Liquidez crítica (Acid Test < 1): posibles dificultades para afrontar pasivos inmediatos.
