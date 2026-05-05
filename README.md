@@ -1,4 +1,4 @@
-<h1 align="center">Análisis de perfil de clientes</h1>
+<h1 align="center">Análisis de ratios económico-financiero</h1>
 
 ## 1. Descripción
 El dashboard interactivo de análisis económico-financiero permite evaluar la salud financiera de una organización a través de indicadores clave, como la rentabilidad, el endeudamiento, la liquidez y el punto de equilibrio, a lo largo del período 2019–2024, facilitando así la toma de decisiones basada en datos.
