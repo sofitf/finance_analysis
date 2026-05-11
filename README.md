@@ -21,21 +21,9 @@ Se definió la tabla de hechos (factDiario), la cual contiene los movimientos fi
 ---
 ## 4. Análisis
 
-El dashboard presenta diferentes métricas y visualizaciones que permiten comprender el comportamiento de compra de los clientes:
-
-Métricas principales
-- Ticket promedio
-- Gasto promedio por cliente
-- Variabilidad del gasto por cliente
-- Porcentaje de clientes en riesgo
-
-Análisis realizados:
-- Comparación del gasto promedio según nivel educativo
-- Variabilidad del gasto por perfil educativo
-- Distribución del gasto por categoría de producto
-- Promedio de categorías activas por estado civil y nivel educativo
-- Identificación de clientes con mayor riesgo de churn
-Además, el dashboard incluye filtros interactivos para analizar los resultados según el estado civil, categoría de edad, categoría de ingresos y número de hijos
+El dashboard presenta diferentes métricas, como ROI, ROE, BDII, EBITDA y EBIT, entre otras, así como visualizaciones que permiten comprender el comportamiento de la empresa.
+Un ROI (retorno sobre la inversión) bajo podría indicar dos posibles escenarios: un exceso de inversión o un uso ineficiente de los recursos.
+Por otro lado, el ROE (retorno sobre el capital) refleja que la empresa está siendo eficiente en la utilización de sus recursos propios.
 
 ---
 ## 5. Hallazgos
